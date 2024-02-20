@@ -11,7 +11,7 @@ To install, place the mod .jar file in your ".mods" folder, and don't forget to 
 ## Features
 
 - Built-in auto-reset button, to increase your speedrunning efficiency.
-- Buffed piglin trades, removed piglin brutes, and the end fight is much easier.
+- Buffed piglin trades, and the end fight is much easier.
 - Fully configurable with different options and modes.
 - Structures are more common
 - *and more!*
