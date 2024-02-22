@@ -85,6 +85,6 @@ public abstract class Keybindings {
 
     @Unique
     private void debugWarnEasierSpeedrunning(String string, Object... objects) {
-        this.inGameHud.getChatHud().addMessage((new LiteralText("")).append((new TranslatableText("easierspeedrunning.debug.prefix")).formatted(Formatting.AQUA, Formatting.BOLD)).append(" ").append(new TranslatableText(string, objects)));
+        this.inGameHud.getChatHud().addMessage((new LiteralText("")).append((new TranslatableText("easierspeedrunning.debug.prefix")).formatted(Formatting.GREEN, Formatting.BOLD)).append(" ").append(new TranslatableText(string, objects)));
     }
 }
