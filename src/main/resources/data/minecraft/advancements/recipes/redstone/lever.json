@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stone_crafting_materials": {
+    "has_stone_tool_materials": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "easierspeedrunning:stone_crafting_materials"
+            "tag": "minecraft:stone_tool_materials"
           }
         ]
       }
@@ -20,7 +20,7 @@
   },
   "requirements": [
     [
-      "has_stone_crafting_materials",
+      "has_stone_tool_materials",
       "has_the_recipe"
     ]
   ],
