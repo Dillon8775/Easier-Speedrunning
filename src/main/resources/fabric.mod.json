@@ -4,6 +4,7 @@
   "version": "1.0",
   "name": "Easier Speedrunning",
   "description": "The sequel to The Speedrunner Mod, a mod that makes speedrunning, easier. Without the modded stuff, and back-ported to Minecraft 1.16.1.",
+  "accessWidener": "easier-speedrunning.accessWidener",
   "authors": [
     "Dillon8775"
   ],
