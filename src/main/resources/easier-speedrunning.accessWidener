@@ -13,6 +13,5 @@ accessible class net/minecraft/loot/function/ApplyBonusLootFunction$OreDrops
 accessible method net/minecraft/entity/mob/PiglinBrain isAdmiringItem (Lnet/minecraft/entity/mob/PiglinEntity;)Z
 accessible method net/minecraft/entity/mob/PiglinBrain acceptsForBarter (Lnet/minecraft/item/Item;)Z
 accessible method net/minecraft/entity/projectile/ProjectileEntity updateRotation (FF)F
-accessible method net/minecraft/client/Keyboard debugWarn (Ljava/lang/String;[Ljava/lang/Object;)V
 
 accessible field net/minecraft/entity/mob/BlazeEntity$ShootFireballGoal fireballCooldown I
