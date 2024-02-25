@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "easierspeedrunning:item/warped_boat"
-  }
-}
