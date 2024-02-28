@@ -27,8 +27,8 @@
     "easier-speedrunning.mixins.json"
   ],
   "depends": {
-    "minecraft": "1.16.1",
-    "java": ">=8",
+    "minecraft": "1.17.1",
+    "java": ">=16",
     "fabric": "*"
   },
   "suggests": {
