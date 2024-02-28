@@ -1,7 +1,7 @@
 accessWidener v1 named
 
 accessible class net/minecraft/structure/NetherFortressGenerator$PieceData
-accessible class net/minecraft/structure/StrongholdGenerator$PieceSetting
+accessible class net/minecraft/structure/StrongholdGenerator$PieceData
 accessible class net/minecraft/structure/StrongholdGenerator$Piece
 accessible class net/minecraft/entity/mob/BlazeEntity$ShootFireballGoal
 accessible class net/minecraft/entity/mob/GhastEntity$ShootFireballGoal
@@ -10,8 +10,16 @@ accessible class net/minecraft/entity/passive/DolphinEntity$SwimWithPlayerGoal
 accessible class net/minecraft/client/gui/screen/world/CreateWorldScreen$Mode
 accessible class net/minecraft/loot/function/ApplyBonusLootFunction$OreDrops
 
+accessible method net/minecraft/world/gen/feature/ConfiguredFeatures register (Ljava/lang/String;Lnet/minecraft/world/gen/feature/ConfiguredFeature;)Lnet/minecraft/world/gen/feature/ConfiguredFeature;
+accessible method net/minecraft/world/biome/DefaultBiomeCreator getSkyColor (F)I
 accessible method net/minecraft/entity/mob/PiglinBrain isAdmiringItem (Lnet/minecraft/entity/mob/PiglinEntity;)Z
 accessible method net/minecraft/entity/mob/PiglinBrain acceptsForBarter (Lnet/minecraft/item/Item;)Z
+accessible method net/minecraft/entity/SpawnRestriction register (Lnet/minecraft/entity/EntityType;Lnet/minecraft/entity/SpawnRestriction$Location;Lnet/minecraft/world/Heightmap$Type;Lnet/minecraft/entity/SpawnRestriction$SpawnPredicate;)V
 accessible method net/minecraft/entity/projectile/ProjectileEntity updateRotation (FF)F
+accessible method net/minecraft/client/options/Option getGenericLabel (Lnet/minecraft/text/Text;)Lnet/minecraft/text/Text;
+accessible method net/minecraft/client/options/Option getGenericLabel (I)Lnet/minecraft/text/Text;
 
+accessible field net/minecraft/world/gen/feature/ConfiguredFeatures$States DIAMOND_ORE Lnet/minecraft/block/BlockState;
+accessible field net/minecraft/world/gen/feature/ConfiguredFeatures$States LAPIS_ORE Lnet/minecraft/block/BlockState;
+accessible field net/minecraft/world/gen/feature/ConfiguredFeatures$States ANCIENT_DEBRIS Lnet/minecraft/block/BlockState;
 accessible field net/minecraft/entity/mob/BlazeEntity$ShootFireballGoal fireballCooldown I
