@@ -1,0 +1,17 @@
+accessWidener v1 named
+
+accessible class net/minecraft/structure/NetherFortressGenerator$PieceData
+accessible class net/minecraft/structure/StrongholdGenerator$PieceSetting
+accessible class net/minecraft/structure/StrongholdGenerator$Piece
+accessible class net/minecraft/entity/mob/BlazeEntity$ShootFireballGoal
+accessible class net/minecraft/entity/mob/GhastEntity$ShootFireballGoal
+accessible class net/minecraft/entity/mob/SilverfishEntity$CallForHelpGoal
+accessible class net/minecraft/entity/passive/DolphinEntity$SwimWithPlayerGoal
+accessible class net/minecraft/client/gui/screen/world/CreateWorldScreen$Mode
+accessible class net/minecraft/loot/function/ApplyBonusLootFunction$OreDrops
+
+accessible method net/minecraft/entity/mob/PiglinBrain isAdmiringItem (Lnet/minecraft/entity/mob/PiglinEntity;)Z
+accessible method net/minecraft/entity/mob/PiglinBrain acceptsForBarter (Lnet/minecraft/item/Item;)Z
+accessible method net/minecraft/entity/projectile/ProjectileEntity updateRotation (FF)F
+
+accessible field net/minecraft/entity/mob/BlazeEntity$ShootFireballGoal fireballCooldown I
